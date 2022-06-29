@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        body {
+            font-family: 'work sans', Arial, Helvetica;
+            font-size: 1em;
+            /* Medidas absolutas
+            cm, mm, in (polegada), px, pt, pc
+
+            Medidas relativas
+            em (altura M), ex (altura x), rem (relativo ao hud), vw (largura da tela), vh (altura da viewport), %
+
+            - os mais recomendados para o uso é o px e em (recomendação da w3c) -
+
+            a letra normalmente já é setada como padrão em 16px
+
+            geralmente 1em = 16px */
+
+            color: black;
+            background-color: bisque;
+            font-weight: 400; 
+            /* peso com palavras chaves: lighter, normal, bold, bolder;
+            peso numérico: 100 - 900 */
+
+            /* decidir se a fonte vai ficar em itálica ou normal 
+            font-style: italic; */
+
+            /* para colocar sublinhado nas palavras ou textos 
+            text-decoration: underline; */
+
+            /* shorthand fonts, sequencia: style, weight, size, family 
+            font; italic bolder 3em 'work sans', sans-serif; */
+        }
+        h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            color: rgb(10, 0, 43);
+        }
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(10, 0, 43);
+        }
+        
+        p{
+            font: italic bold 1em 'Work Sans', sans-serif; /* shorthand de fontes */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minus eum, velit maiores perspiciatis impedit hic, quia enim ipsa ut esse iure soluta. Officia harum vel architecto corrupti voluptate! Dolore!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iste sed cumque labore commodi fuga fugiat perferendis quia placeat repudiandae! Velit nihil natus fuga, ad voluptatibus vitae aperiam inventore quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quos minus dolorem doloribus ullam. Error quia at debitis id non velit veniam quo ullam, ut ducimus repudiandae esse eligendi odit.</p>
+</body>
+</html>

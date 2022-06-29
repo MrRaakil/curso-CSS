@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family:'roboto', arial verdana sans-serif;
+    background: linear-gradient( 90deg, #0D1B2A, #415A77);
+    color: #E0E1DD;
+}
+
+nav {
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+
+    font-size: 12px;
+    display: flex;
+    height: 50px;
+    width: auto;
+    list-style:none;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #E0E1DD;
+}
+
+.lista {
+    margin: 5px 20px;
+
+}
+
+main {
+    background-color: #415A77;
+    box-shadow: 5px 5px 10px black;
+    margin: 10px 5vh ;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 15px;
+}

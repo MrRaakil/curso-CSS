@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: grey;
+  margin: 30px;
+}
+header{
+  background-color: whitesmoke;
+  padding: 15px;
+}
+nav{
+  background-color: gray;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.418);
+}
+nav > a{
+  margin: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  transition: 3ms;
+}
+#raakil{
+  color: white;
+  text-decoration: none;
+}
+section{
+  margin-top: 30px;
+  background-color: white;
+  padding: 10px;
+  border-radius:  0px 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+}
+aside{
+  background-color: red;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  margin-top: 5px;
+}
+h1, h2{
+  margin: 15px 0px;
+  color: rgb(65, 65, 65);
+}
+p{
+  background-color: lightgrey;
+  margin: 5px;
+  padding: 10px;
+  text-indent: 2em;
+}
+footer{
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 5px;
+  background-color: rgb(44, 44, 44);
+  text-align: center;
+}
+#bola {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  margin: 15px;
+  border-radius: 50%;
+}
