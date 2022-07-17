@@ -1,0 +1,33 @@
+<html>
+    <header>
+        <title>
+            redimensionamento vertical
+        </title>
+        <style>
+            #fora{
+                position: relative;
+
+                height: 97vh;
+                background-color: rgb(201, 0, 201);
+            }
+            #dentro{
+                position: absolute;
+
+                height: 200px;
+                width: 300px;
+                background-color: yellow;
+
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+
+            }
+            
+        </style>
+    </header>
+    <body>
+        <div id="fora">
+            <div id="dentro"></div>
+        </div>
+    </body>
+</html>
